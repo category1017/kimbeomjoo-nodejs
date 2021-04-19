@@ -8,3 +8,5 @@ express()
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
+
+  //푸시기능, 차트 실시간 랜더링하는 소캣 앱 시작 
